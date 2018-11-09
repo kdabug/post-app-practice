@@ -13,7 +13,7 @@ The purpose of this exercise is to start practicing React project workflow best 
 
 ### What you will do:
 
-- Write out your [specs](https://git.generalassemb.ly/wdi-nyc-octonion/debug-game-hanoi/readme.md#Program-Specs-and-Planning).
+- Write out your [specs](https://git.generalassemb.ly/wdi-nyc-octonion/debug-game-hanoi/#program-specs-and-planning).
 - Wireframe the mockup and label the components.
 - Sketch out your component hierarchy showing the data flow: 
     - What methods will your app have and which components will they be defined in?
