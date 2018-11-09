@@ -19,6 +19,10 @@ The purpose of this exercise is to start practicing React project workflow best 
     - What methods will your app have and which components will they be defined in?
     - Which components will be stateful?
     - What props will be passed down to each component?
+    
+### Submission
+
+Post a picture to the student slack channel
        
 ### Bonus
 
