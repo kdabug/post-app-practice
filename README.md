@@ -13,16 +13,14 @@ The purpose of this exercise is to start practicing React project workflow best 
 
 ### What you will do:
 
-- Write out your [specs](https://git.generalassemb.ly/wdi-nyc-octonion/debug-game-hanoi/readme.md#Program-Specs-and-Planning)
-- Wireframe the mockup into the components you want to have
-
+- Write out your [specs](https://git.generalassemb.ly/wdi-nyc-octonion/debug-game-hanoi/readme.md#Program-Specs-and-Planning).
+- Wireframe the mockup and label the components.
 - Sketch out your component hierarchy showing the data flow: 
-
-        - what methods will your app have and which components will they be defined in
-        - Which components will be stateful
-        - What props will be passed down to each component
+    - What methods will your app have and which components will they be defined in?
+    - Which components will be stateful?
+    - What props will be passed down to each component?
        
-### Bonus2
+### Bonus
 
 - Write user stories
 - Make a project board with the code tasks from your user stories
