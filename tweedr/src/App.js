@@ -1,12 +1,18 @@
 import React from 'react';
+import PostForm from './components/PostForm'
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <h1>Tweedr</h1>
-    </div>
-  );
+class App extends React.Component{
+  render(){
+    return (
+      <div className="App">
+        <h1>Tweedr</h1>
+        <h3>What ya thinking?</h3>
+        <PostForm />
+      </div>
+    )
+  }
+
 }
 
 export default App;
