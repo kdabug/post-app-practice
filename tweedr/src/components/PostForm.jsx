@@ -1,10 +1,10 @@
 import React from 'react'
 
-function PostForm (){
+function PostForm ({handleChange, handleSubmit}){
     return(
         <div className='post-form'>
-            <form>
-                <input type='text'/>
+            <form onSubmit={handleSubmit} >
+                <input onChange={handleChange} type='text'/>
                 <button>Post</button>
             </form>
         </div>
