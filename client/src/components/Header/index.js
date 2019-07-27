@@ -9,7 +9,7 @@ class Header extends Component {
         <h1>Logo</h1>
         <nav>
           <Link to="/">TWEEDR</Link>
-          {(loggedIn && <Link to="/">${userName}</Link>) || (
+          {(userName && <Link to="/">${userName}</Link>) || (
             <>
               <Link to="/login">Login</Link>
               <Link to="/register">Register</Link>

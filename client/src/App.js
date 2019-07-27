@@ -13,8 +13,8 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      tweedrData: [],
-      formQuery: "sleepy",
+      tweedData: [],
+      formQuery: "",
       userName: null
     };
 
@@ -41,15 +41,29 @@ class App extends Component {
     return (
       <div className="App">
         <main>
-          <Header />
+          <Header userName={this.state.userName} />
           <Switch>
             <Route path="/login" render={() => <Login />} />
             <Route path="/logout" render={() => <Logout />} />
             <Route path="/login" render={() => <Register />} />
-            <Route path="/user-profile" rendeer={() => <UserProfile />} />
-            <Route path="/" render={() => <Home />} />
+            <Route
+              path="/user-profile"
+              rendeer={() => <UserProfile userName={userName} />}
+            />
+            <Route
+              path="/"
+              render={props => (
+                <Home
+                  {...props}
+                  tweedData={this.state.tweedData}
+                  formQuery={this.state.formQuery}
+                  handleChange={this.state.handleChange}
+                  handleSubmit={this.state.handleSubmit}
+                />
+              )}
+            />
           </Switch>
-          <Footer />
+          <Footer userName={this.state.userName} />
         </main>
       </div>
     );
